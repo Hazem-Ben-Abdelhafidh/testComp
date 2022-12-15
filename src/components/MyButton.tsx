@@ -1,14 +1,12 @@
-import { Button } from "@mui/material"
-import React from "react"
+import { Button } from '@mui/material'
+import React from 'react'
 
 type Props = {
-    text:string
+  text: string
 }
 
 const MyButton = (props: Props) => {
-  return (
-    <Button variant="contained">{props.text}</Button>
-  )
+  return <Button variant='contained'>{props.text}</Button>
 }
 
 export default MyButton
