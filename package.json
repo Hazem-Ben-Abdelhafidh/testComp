@@ -1,5 +1,5 @@
 {
-  "name": "test_compo",
+  "name": "@hazem777/test_compo",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
@@ -44,6 +44,13 @@
   },
   "peerDependencies": {
     "react": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.0"
   }
-
 }
